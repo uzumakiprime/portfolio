@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c1e38da5db.js" crossorigin="anonymous"></script> <!-- fontawesome.com -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assests/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assests/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assests/images/favicon-16x16.png">
+    <link rel="manifest" href="assests/images/site.webmanifest">
+    <title>.prime</title>
+  </head>
+
+<body>
+    <div id="preloader"></div>
+<!-- Navigation bar-->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            <h1 class="eng">PrimeS</h1><h1 class="jap"> プライム</h1>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Academics</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+<!-- Hero text -->
+    <div>
+        <section>
+            <img alt="Credit: upklyak" title="Credit: upklyak" src="assests/images/background.jpg">
+            <!--<h2></h2> -->
+            <h2>Welcome</h2>
+            <h2><a href="" class="typewrite" data-period="2000" data-type='[ ".html", ".css", ".js"]'>
+            <span class="wrap"></span>
+            </a></h2>
+        </section>
+    </div>
+
+<!-- About -->    
+    <div class="sec" id="about">
+        <h3>.about</h3>
+        <div class="abc">
+         
+          <span>Hello, I'am <br>Sohonsagar Singha,</span>
+        </div>
+        <p>currently pursuing Computer Science & Engineering from Assam University, Silchar. I am a hard-working, 
+          dedicated and honest individual who is always willing to learn new skills.<br> My hobbies are playing video games  
+        and web development. My expertise is in web designing and development, ethical hacking and programming. 
+        I like coding very much and I have been coding for the past 6 years. I am always trying to
+        enchance my skills by doing various internships.</p>
+    </div>
+
+<!-- Skills -->
+    <div class="sec2" id="skills">
+        <h4>.academics</h4>
+        <a href="assests/docs/RESUME.pdf" target="_blank"><button class="btn">resume.pdf</button></a>
+        <div class="maindiv">
+            <div class="column">
+              <h6>Education</h6>
+              <table class="table-style-1">
+                <tr>
+                   <td>Assam University: 2019-ongoing</td>
+                </tr>
+                <tr>
+                  <td>Maharishi Vidya Mandir: 2017-2019</td>
+                </tr>
+                <tr>
+                  <td>Kendriya Vidaylaya: 2016-2017</td>
+                </tr>
+              </table>
+            </div>
+            <div class="column">
+              <h6>Skills</h6>
+              <table class="table-style-2">
+                <tr>
+                  <td>HTML: ⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>CSS: ⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>JS: ⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Ethical Hacking: ⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Python: ⭐⭐⭐</td>
+                </tr>
+              </table>
+            </div>
+        </div>
+    </div>
+    
+<!-- Contact -->    
+    <div class="sec3" id="contact">
+        <h5>.social</h5>
+        <div class="social-buttons">
+          <a href="https://www.facebook.com/tnt.primes.7/" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sohonsagar-singha-342170222/" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/uzumakiprime" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/walker_prime" class="social-buttons__button social-button social-button--twitter" aria-label="CodePen">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/p_r_i_m_e_s/" class="social-buttons__button social-button social-button--instagram" aria-label="CodePen">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+    </div>
+
+<!-- Footer -->    
+    <footer class="sec4">
+      <div class="fontfooter">
+        <a href='https://www.freepik.com/vectors/night-sea' target="_blank">@designed by freepik/upklyak</i></a>
+      </div>
+     </footer>
+
+
+<!-- Scripts -->
+    <script src="script.js"></script> 
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+    </script> 
+    
+</body>
+</html>
